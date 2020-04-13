@@ -13,11 +13,11 @@
         <div class="table-responsive">
             <table class="table table-striped table-bordered table-condensed table-hover">
                 <thead>
-                    <th>Id</th>
-                    <th>tipo</th>
-                    <th>placa</th>
-                    <th>modelo</th>
-                    <th>Opciones</th>
+                    <th>ID</th>
+                    <th>TIPO</th>
+                    <th>PLACA</th>
+                    <th>MODELO</th>
+                    <th>OPCIONES</th>
                 </thead>
                 @foreach ($vehiculos as $vehiculo)
                 <tr>
