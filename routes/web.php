@@ -16,8 +16,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 */
-
+Route::get('/', function () {
+    return view('auth/login');
+    });
+Route::resource('tarifa','TarifaController');
 Route::resource('vehiculo', 'VehiculoController');
+Route::resource('ingresoV','Ingreso_vehiculoController');
+Route::resource('ticket','TicketController');
+Route::get('ticket/{placa}/{id}/{valor}','TicketController@generarTicket')->name('ticket');
+
 
 
 Auth::routes();

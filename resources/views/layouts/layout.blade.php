@@ -266,14 +266,14 @@ desired effect
         <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Link</span></a></li>
         <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
         <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
+          <a href="#"><i class="fa fa-link"></i> <span>Vehiculo</span>
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#">Link in level 2</a></li>
-            <li><a href="#">Link in level 2</a></li>
+            <li><a href="{{url('vehiculo')}}">Vehiculo</a></li>
+            <li><a href="{{url('tarifa')}}">Tarifa</a></li>
           </ul>
         </li>
       </ul>
